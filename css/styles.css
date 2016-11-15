@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+
+div.top {
+	height:auto;
+	pointer-events: none;
+	position:relative;
+}
+
+div.bottom {
+	height: auto;
+}
+
+h1 {
+	-moz-opacity:0; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+
+    color: red;
+	text-align: center;
+	font-family: verdana;	
+	position: absolute;
+	left:auto;
+	top:auto;
+
+	font-size: 350%;
+	font-size: 4vw;
+}
+
+img.back {
+	-moz-opacity:0; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+
+	width:49vw;
+
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
+
+#wolfS {
+	-moz-opacity:0; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+	
+	width: 20%;
+
+	position: absolute;
+	top: 12vw;
+	left: 33vw;
+}
+
+button.centre {
+	display: block;
+
+	-moz-opacity:0; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+
+	width: 50%;
+	font-family: verdana;
+	font-size: 150%;
+	font-size: 2vw;
+
+	margin-top: 4vw;
+	margin-left: auto;
+	margin-right: auto;
+}
